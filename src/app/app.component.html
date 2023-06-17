@@ -1,0 +1,8 @@
+<app-header></app-header>
+<br>
+
+<div class="grid">
+   <app-videos [dataEntrante]="video" *ngFor="let video of ArreglosData"></app-videos> 
+<!--[dataEntrante] es el input del componente videos y el *ngFor es el bucle que recorre el array ArregloTarjetas-->
+</div>
+

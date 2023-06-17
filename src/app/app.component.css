@@ -1,0 +1,7 @@
+.grid{
+    display: grid; /*display tipo Grilla*/
+    grid-template-columns: repeat(5, 1fr); /*6 imagenes, o sea 6 columnas*/
+    gap: 3rem; /*espacio entre las imagenes*/
+    padding-left: 1rem; /*espacio a la izquierda de cada imagen*/
+    padding-bottom: 1rem; /*espacio de bajo de cada imagen*/
+}
